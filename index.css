@@ -61,7 +61,7 @@ body {
 }
 
 .favourite-place-card-heading {
-    color: 0f0e46;
+    color: #0f0e46;
     font-family: "Roboto";
     font-size: 23px;
     font-weight: bold;
@@ -77,4 +77,42 @@ body {
     width: 80px;
     height: 100px;
     border-radius: 4px;
+}
+
+.detailed-view-bg-container {
+    height: 100vh;
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/seabg.png");
+    background-size: cover;
+}
+
+.detailed-view-bg-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-text-container {
+    padding: 16px;
+}
+
+.detailed-view-card-heading {
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+    color: #0f0e46;
+}
+
+.detailed-view-card-description {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #6c6b70;
 }
